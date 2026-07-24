@@ -17,6 +17,9 @@ class RobotController:
         self.ser.setRTS(False)
         self.ser.setDTR(False)
 
+        self.last_pose = None
+        self.pose_event = threading.Event()
+
         threading.Thread(
             target=self.read_feedback,
             daemon=True
@@ -25,25 +28,44 @@ class RobotController:
         print("RoArm M2 Connected.")
 
     ####################################################
-    # Read feedback
+    # Read Robot Feedback
     ####################################################
 
     def read_feedback(self):
+
         while True:
+
             try:
+
                 line = self.ser.readline().decode(
                     "utf-8",
                     errors="ignore"
-                )
+                ).strip()
 
-                if line.strip():
-                    print("Robot:", line.strip())
+                if line:
+
+                    print("Robot:", line)
+
+                    try:
+
+                        data = json.loads(line)
+
+                        # Robot pose feedback
+                        if data.get("T") == 1051:
+
+                            self.last_pose = data
+
+                            self.pose_event.set()
+
+                    except:
+                        pass
 
             except Exception:
+
                 break
 
     ####################################################
-    # Send JSON
+    # Send JSON Command
     ####################################################
 
     def send(self, data):
@@ -57,24 +79,38 @@ class RobotController:
         time.sleep(0.05)
 
     ####################################################
-    # Query Pose
+    # Get Robot Pose
     ####################################################
 
     def get_pose(self):
+
+        self.pose_event.clear()
+
         self.send({"T": 105})
+
+        if self.pose_event.wait(timeout=2):
+
+            return self.last_pose
+
+        return None
 
     ####################################################
     # Home
     ####################################################
 
     def home(self):
+
         self.send({"T": 100})
 
     ####################################################
-    # Generic Motion Function
+    # Generic Motion
     ####################################################
 
-    def move(self, axis, direction, speed=8, duration=0.5):
+    def move(self,
+             axis,
+             direction,
+             speed=8,
+             duration=0.5):
 
         self.send({
             "T": 123,
@@ -99,9 +135,11 @@ class RobotController:
     ####################################################
 
     def left(self):
+
         self.move(1, 1)
 
     def right(self):
+
         self.move(1, 2)
 
     ####################################################
@@ -109,9 +147,11 @@ class RobotController:
     ####################################################
 
     def up(self):
+
         self.move(2, 2)
 
     def down(self):
+
         self.move(2, 1)
 
     ####################################################
@@ -119,9 +159,11 @@ class RobotController:
     ####################################################
 
     def forward(self):
+
         self.move(3, 2)
 
     def backward(self):
+
         self.move(3, 1)
 
     ####################################################
@@ -129,13 +171,15 @@ class RobotController:
     ####################################################
 
     def wrist_up(self):
+
         self.move(4, 2)
 
     def wrist_down(self):
+
         self.move(4, 1)
 
     ####################################################
-    # Stop
+    # Stop All Joints
     ####################################################
 
     def stop(self):
@@ -153,8 +197,9 @@ class RobotController:
             time.sleep(0.05)
 
     ####################################################
-    # Close
+    # Close Port
     ####################################################
 
     def close(self):
+
         self.ser.close()
