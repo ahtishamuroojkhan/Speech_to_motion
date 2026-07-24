@@ -1,0 +1,922 @@
+
+>>> %Run speech_robot_experiment.py
+LOG (VoskAPI:ReadDataFiles():model.cc:213) Decoding params beam=10 max-active=3000 lattice-beam=2
+LOG (VoskAPI:ReadDataFiles():model.cc:216) Silence phones 1:2:3:4:5:6:7:8:9:10
+LOG (VoskAPI:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (VoskAPI:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (VoskAPI:ReadDataFiles():model.cc:248) Loading i-vector extractor from vosk-model-small-en-us-0.15/ivector/final.ie
+LOG (VoskAPI:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (VoskAPI:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+LOG (VoskAPI:ReadDataFiles():model.cc:282) Loading HCL and G from vosk-model-small-en-us-0.15/graph/HCLr.fst vosk-model-small-en-us-0.15/graph/Gr.fst
+LOG (VoskAPI:ReadDataFiles():model.cc:308) Loading winfo vosk-model-small-en-us-0.15/graph/phones/word_boundary.int
+RoArm M2 Connected.
+============================================================
+ Offline Speech-Controlled RoArm-M2 Experiment
+============================================================
+
+Commands
+LEFT
+RIGHT
+UP
+DOWN
+FORWARD
+BACKWARD
+WRISTUP
+WRISTDOWN
+STOP
+HOME
+
+Press CTRL+C to quit.
+
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":306.508975,"y":14.1153322,"z":345.0123539,"b":0.046019424,"s":0.084368943,"e":1.076854513,"t":3.032680018,"torB":52,"torS":56,"torE":0,"torH":0}
+Latency: 655.13 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":300.1965251,"y":75.19531504,"z":342.648843,"b":0.245436926,"s":0.092038847,"e":1.076854513,"t":3.032680018,"torB":36,"torS":56,"torE":0,"torH":0}
+Latency: 657.01 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":283.494978,"y":124.6254438,"z":343.674684,"b":0.414174813,"s":0.095106809,"e":1.069184609,"t":3.032680018,"torB":176,"torS":32,"torE":-40,"torH":0}
+Latency: 655.1 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":254.2366976,"y":187.348509,"z":335.0691639,"b":0.635068046,"s":0.107378655,"e":1.087592379,"t":3.032680018,"torB":44,"torS":48,"torE":24,"torH":0}
+Latency: 658.59 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":215.0073961,"y":234.3184759,"z":332.7242469,"b":0.828349625,"s":0.113514578,"e":1.089126359,"t":3.032680018,"torB":52,"torS":48,"torE":0,"torH":0}
+Latency: 660.37 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":167.4768819,"y":272.7336595,"z":330.7666821,"b":1.020097224,"s":0.119650501,"e":1.089126359,"t":3.032680018,"torB":64,"torS":48,"torE":0,"torH":0}
+Latency: 659.81 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":113.6046121,"y":301.3726908,"z":328.7966642,"b":1.210310842,"s":0.125786425,"e":1.089126359,"t":3.032680018,"torB":68,"torS":48,"torE":0,"torH":0}
+Latency: 656.93 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":54.91632391,"y":319.3984738,"z":326.8142673,"b":1.400524459,"s":0.131922348,"e":1.089126359,"t":3.031146037,"torB":68,"torS":48,"torE":0,"torH":0}
+Latency: 655.79 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-7.513899968,"y":326.4957819,"z":324.3189769,"b":1.593806039,"s":0.139592252,"e":1.089126359,"t":3.031146037,"torB":72,"torS":56,"torE":0,"torH":0}
+Latency: 658.22 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-68.7044254,"y":322.0949595,"z":320.9922829,"b":1.780951695,"s":0.147262156,"e":1.092194321,"t":3.031146037,"torB":88,"torS":48,"torE":0,"torH":0}
+Latency: 661.84 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-127.1585615,"y":306.9879238,"z":317.9475138,"b":1.963495408,"s":0.15646604,"e":1.092194321,"t":3.031146037,"torB":116,"torS":56,"torE":0,"torH":0}
+Latency: 657.44 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-182.2617724,"y":280.156464,"z":315.9026885,"b":2.147573103,"s":0.162601964,"e":1.092194321,"t":3.032680018,"torB":116,"torS":48,"torE":0,"torH":0}
+Latency: 664.93 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-231.3771884,"y":244.5208612,"z":313.3299408,"b":2.328582836,"s":0.170271867,"e":1.092194321,"t":3.032680018,"torB":128,"torS":56,"torE":0,"torH":0}
+Latency: 657.52 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-273.2398585,"y":200.7060262,"z":310.7387607,"b":2.508058588,"s":0.177941771,"e":1.092194321,"t":3.032680018,"torB":148,"torS":56,"torE":0,"torH":0}
+Latency: 655.86 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-306.8125701,"y":149.7460767,"z":308.1293008,"b":2.68753434,"s":0.185611675,"e":1.092194321,"t":3.032680018,"torB":128,"torS":56,"torE":0,"torH":0}
+Latency: 661.72 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-330.8545916,"y":91.55979648,"z":306.0286744,"b":2.871612035,"s":0.191747598,"e":1.092194321,"t":3.032680018,"torB":112,"torS":48,"torE":0,"torH":0}
+Latency: 656.59 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-343.7485311,"y":31.19613868,"z":303.9165263,"b":3.051087787,"s":0.197883522,"e":1.092194321,"t":3.032680018,"torB":128,"torS":48,"torE":0,"torH":0}
+Latency: 657.1 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-346.950498,"y":6.919717464,"z":301.7929359,"b":3.121650903,"s":0.204019445,"e":1.092194321,"t":3.032680018,"torB":112,"torS":48,"torE":0,"torH":0}
+Latency: 657.82 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-349.2545328,"y":6.965670043,"z":299.1224789,"b":3.121650903,"s":0.211689349,"e":1.092194321,"t":3.032680018,"torB":112,"torS":56,"torE":0,"torH":0}
+Latency: 654.42 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-344.8518844,"y":68.59530473,"z":296.4344255,"b":2.945243113,"s":0.219359253,"e":1.092194321,"t":3.032680018,"torB":-108,"torS":56,"torE":0,"torH":0}
+Latency: 660.29 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-328.9731315,"y":130.3897961,"z":293.7289337,"b":2.76423338,"s":0.227029157,"e":1.092194321,"t":3.032680018,"torB":-120,"torS":56,"torE":0,"torH":0}
+Latency: 656.34 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-301.7374458,"y":189.1333756,"z":291.0061626,"b":2.581689666,"s":0.234699061,"e":1.092194321,"t":3.032680018,"torB":-116,"torS":56,"torE":0,"torH":0}
+Latency: 658.35 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-263.6073366,"y":243.3763253,"z":287.7162544,"b":2.396077991,"s":0.243902945,"e":1.092194321,"t":3.032680018,"torB":-104,"torS":64,"torE":0,"torH":0}
+Latency: 662.38 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-216.1811255,"y":289.6251805,"z":284.4019734,"b":2.212000296,"s":0.25310683,"e":1.092194321,"t":3.032680018,"torB":-96,"torS":64,"torE":0,"torH":0}
+Latency: 660.28 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-159.1595919,"y":327.3728508,"z":281.0636005,"b":2.023320659,"s":0.262310715,"e":1.092194321,"t":3.032680018,"torB":-88,"torS":64,"torE":0,"torH":0}
+Latency: 654.73 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-94.40667173,"y":353.7772663,"z":278.2634235,"b":1.831573061,"s":0.269980619,"e":1.092194321,"t":3.032680018,"torB":-72,"torS":56,"torE":0,"torH":0}
+Latency: 662.76 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":-26.52895791,"y":367.3237523,"z":275.446877,"b":1.642893424,"s":0.277650523,"e":1.092194321,"t":3.032680018,"torB":-68,"torS":56,"torE":0,"torH":0}
+Latency: 656.77 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":43.13095346,"y":368.2830345,"z":272.045647,"b":1.454213787,"s":0.286854407,"e":1.092194321,"t":3.032680018,"torB":-68,"torS":64,"torE":0,"torH":0}
+Latency: 655.01 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":113.8264772,"y":355.5103352,"z":268.6213717,"b":1.260932208,"s":0.296058292,"e":1.092194321,"t":3.032680018,"torB":-64,"torS":64,"torE":0,"torH":0}
+Latency: 656.36 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":180.6728274,"y":329.456226,"z":265.1743412,"b":1.069184609,"s":0.305262177,"e":1.092194321,"t":3.032680018,"torB":-64,"torS":64,"torE":0,"torH":0}
+Latency: 660.42 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":241.6972946,"y":290.8513318,"z":261.7048476,"b":0.877437011,"s":0.314466062,"e":1.092194321,"t":3.032680018,"torB":-60,"torS":64,"torE":0,"torH":0}
+Latency: 666.58 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":294.9177266,"y":240.5223325,"z":258.2131848,"b":0.684155431,"s":0.323669946,"e":1.092194321,"t":3.032680018,"torB":-52,"torS":64,"torE":0,"torH":0}
+Latency: 657.41 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":337.4301496,"y":181.0262132,"z":254.6996484,"b":0.492407833,"s":0.332873831,"e":1.092194321,"t":3.032680018,"torB":-64,"torS":64,"torE":0,"torH":0}
+Latency: 654.45 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":368.31683,"y":112.9628042,"z":251.1645363,"b":0.297592273,"s":0.342077716,"e":1.092194321,"t":3.032680018,"torB":-56,"torS":64,"torE":0,"torH":0}
+Latency: 656.45 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":385.3769245,"y":40.9431059,"z":247.6081477,"b":0.105844674,"s":0.3512816,"e":1.092194321,"t":3.032680018,"torB":-64,"torS":64,"torE":0,"torH":0}
+Latency: 655.49 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":388.3191301,"y":-34.04021533,"z":244.0307841,"b":-0.087436905,"s":0.360485485,"e":1.092194321,"t":3.032680018,"torB":-60,"torS":64,"torE":0,"torH":0}
+Latency: 654.69 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":376.6920759,"y":-108.6125229,"z":240.4327484,"b":-0.280718484,"s":0.36968937,"e":1.092194321,"t":3.032680018,"torB":-52,"torS":64,"torE":0,"torH":0}
+Latency: 656.02 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":351.3199885,"y":-178.8707303,"z":236.8143454,"b":-0.470932102,"s":0.378893255,"e":1.092194321,"t":3.032680018,"torB":-60,"torS":64,"torE":0,"torH":0}
+Latency: 663.74 ms
+
+Recognized: RIGHT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":313.1537762,"y":-243.6155935,"z":232.5675423,"b":-0.66114572,"s":0.38963112,"e":1.092194321,"t":3.032680018,"torB":-72,"torS":72,"torE":0,"torH":0}
+Latency: 658.37 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":354.6216759,"y":-182.6115755,"z":228.906064,"b":-0.475534044,"s":0.398835005,"e":1.092194321,"t":3.032680018,"torB":52,"torS":64,"torE":0,"torH":0}
+Latency: 654.75 ms
+
+Recognized: LEFT
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 1, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":385.4424516,"y":-110.4954061,"z":225.2251949,"b":-0.279184503,"s":0.40803889,"e":1.092194321,"t":3.032680018,"torB":44,"torS":64,"torE":0,"torH":0}
+Latency: 656.99 ms
+
+Recognized: UP
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":343.630807,"y":-96.8001104,"z":289.9122519,"b":-0.274582561,"s":0.237767022,"e":1.092194321,"t":3.032680018,"torB":0,"torS":148,"torE":0,"torH":0}
+Latency: 656.16 ms
+
+Recognized: UP
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":288.2966371,"y":-81.21258551,"z":348.9857758,"b":-0.274582561,"s":0.05829127,"e":1.092194321,"t":3.032680018,"torB":0,"torS":140,"torE":0,"torH":0}
+Latency: 658.01 ms
+
+Recognized: UP
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":224.8717378,"y":-63.34591837,"z":396.1331882,"b":-0.274582561,"s":-0.118116521,"e":1.092194321,"t":3.032680018,"torB":0,"torS":128,"torE":0,"torH":0}
+Latency: 655.98 ms
+
+Recognized: A UP
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":223.1146725,"y":-62.85095658,"z":397.2041123,"b":-0.274582561,"s":-0.122718463,"e":1.092194321,"t":3.032680018,"torB":0,"torS":120,"torE":0,"torH":0}
+Latency: 52.35 ms
+
+Recognized: DOWN
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":295.4435637,"y":-83.22586043,"z":342.4734493,"b":-0.274582561,"s":0.079767001,"e":1.092194321,"t":3.032680018,"torB":0,"torS":32,"torE":0,"torH":0}
+Latency: 654.78 ms
+
+Recognized: DOWN
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":357.7109846,"y":-100.7664682,"z":270.9067682,"b":-0.274582561,"s":0.289922369,"e":1.092194321,"t":3.032680018,"torB":0,"torS":56,"torE":0,"torH":0}
+Latency: 654.25 ms
+
+Recognized: DOWN
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":403.9608566,"y":-113.7949646,"z":188.063391,"b":-0.274582561,"s":0.498543756,"e":1.092194321,"t":3.032680018,"torB":0,"torS":56,"torE":0,"torH":0}
+Latency: 654.36 ms
+
+Recognized: DOWN
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":432.6928616,"y":-121.8887129,"z":97.06459623,"b":-0.274582561,"s":0.707165143,"e":1.092194321,"t":3.032680018,"torB":0,"torS":44,"torE":0,"torH":0}
+Latency: 654.6 ms
+
+Recognized: DOWN
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":442.6645652,"y":-124.6977219,"z":-0.259825545,"b":-0.274582561,"s":0.920388473,"e":1.092194321,"t":3.032680018,"torB":0,"torS":64,"torE":0,"torH":0}
+Latency: 658.73 ms
+
+Recognized: UP
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":436.6448885,"y":-123.001991,"z":75.58609796,"b":-0.274582561,"s":0.754718548,"e":1.092194321,"t":3.032680018,"torB":0,"torS":160,"torE":0,"torH":0}
+Latency: 663.05 ms
+
+Recognized: UP
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":418.447185,"y":-117.8757343,"z":150.0292347,"b":-0.274582561,"s":0.587514642,"e":1.092194321,"t":3.032680018,"torB":0,"torS":184,"torE":0,"torH":0}
+Latency: 656.05 ms
+
+Recognized: UP
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":387.2697822,"y":-109.0931224,"z":222.7606634,"b":-0.274582561,"s":0.414174813,"e":1.092194321,"t":3.032680018,"torB":0,"torS":184,"torE":0,"torH":0}
+Latency: 659.69 ms
+
+Recognized: UP
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":342.7730712,"y":-96.55848796,"z":291.0061626,"b":-0.274582561,"s":0.234699061,"e":1.092194321,"t":3.032680018,"torB":0,"torS":176,"torE":0,"torH":0}
+Latency: 657.81 ms
+
+Recognized: UP
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":287.2647161,"y":-80.92189544,"z":349.9030386,"b":-0.274582561,"s":0.055223308,"e":1.092194321,"t":3.032680018,"torB":0,"torS":148,"torE":0,"torH":0}
+Latency: 657.61 ms
+
+Recognized: UP
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":221.352882,"y":-62.35466374,"z":398.2666245,"b":-0.274582561,"s":-0.127320405,"e":1.092194321,"t":3.032680018,"torB":0,"torS":120,"torE":0,"torH":0}
+Latency: 661.02 ms
+
+Recognized: UP
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":149.0719516,"y":-41.99327034,"z":433.2255048,"b":-0.274582561,"s":-0.306796158,"e":1.09066034,"t":3.032680018,"torB":0,"torS":116,"torE":0,"torH":0}
+Latency: 656.87 ms
+
+Recognized: DOWN
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":227.5595015,"y":-64.10305601,"z":394.6868265,"b":-0.274582561,"s":-0.110446617,"e":1.09066034,"t":3.032680018,"torB":0,"torS":0,"torE":0,"torH":0}
+Latency: 658.52 ms
+
+Recognized: DOWN
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":301.4611758,"y":-84.92100973,"z":336.7656281,"b":-0.274582561,"s":0.09817477,"e":1.092194321,"t":3.032680018,"torB":0,"torS":52,"torE":0,"torH":0}
+Latency: 663.53 ms
+
+Recognized: DOWN
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 2, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":362.0598309,"y":-101.9915296,"z":264.5976443,"b":-0.274582561,"s":0.306796158,"e":1.092194321,"t":3.032680018,"torB":0,"torS":48,"torE":0,"torH":0}
+Latency: 655.99 ms
+
+Recognized: FORWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":352.819009,"y":-99.38840853,"z":309.8383035,"b":-0.274582561,"s":0.319068004,"e":0.908116626,"t":3.032680018,"torB":0,"torS":64,"torE":80,"torH":0}
+Latency: 656.24 ms
+
+Recognized: FOREVER
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":352.5391031,"y":-99.30955959,"z":310.6471206,"b":-0.274582561,"s":0.319068004,"e":0.905048665,"t":3.032680018,"torB":0,"torS":64,"torE":72,"torH":0}
+Latency: 51.28 ms
+
+Recognized: FORWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":335.1568553,"y":-94.41301518,"z":353.5492226,"b":-0.274582561,"s":0.329805869,"e":0.72097097,"t":3.032680018,"torB":0,"torS":72,"torE":72,"torH":0}
+Latency: 656.21 ms
+
+Recognized: FORWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":308.8392592,"y":-86.99940104,"z":394.394317,"b":-0.274582561,"s":0.339009754,"e":0.529223372,"t":3.032680018,"torB":0,"torS":64,"torE":60,"torH":0}
+Latency: 660.84 ms
+
+Recognized: FORWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":276.6328635,"y":-77.92692384,"z":428.3871009,"b":-0.274582561,"s":0.348213639,"e":0.342077716,"t":3.032680018,"torB":0,"torS":64,"torE":60,"torH":0}
+Latency: 657.5 ms
+
+Recognized: FORWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":237.9120172,"y":-67.01933896,"z":456.1695673,"b":-0.274582561,"s":0.357417524,"e":0.150330117,"t":3.032680018,"torB":0,"torS":64,"torE":48,"torH":0}
+Latency: 656.38 ms
+
+Recognized: FORWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":193.730285,"y":-54.57343344,"z":476.2453979,"b":-0.274582561,"s":0.365087428,"e":-0.042951462,"t":3.032680018,"torB":0,"torS":56,"torE":40,"torH":0}
+Latency: 657.14 ms
+
+Recognized: FORWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":147.4288154,"y":-41.53040215,"z":487.0614655,"b":-0.274582561,"s":0.372757331,"e":-0.23316508,"t":3.032680018,"torB":0,"torS":56,"torE":52,"torH":0}
+Latency: 655.95 ms
+
+Recognized: FORWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":97.80808685,"y":-27.55234226,"z":488.5457601,"b":-0.274582561,"s":0.380427235,"e":-0.431048601,"t":3.032680018,"torB":0,"torS":56,"torE":36,"torH":0}
+Latency: 656.67 ms
+
+Recognized: FORWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":49.07478943,"y":-13.82426994,"z":480.027065,"b":-0.274582561,"s":0.388097139,"e":-0.627398142,"t":3.032680018,"torB":0,"torS":56,"torE":36,"torH":0}
+Latency: 654.1 ms
+
+Recognized: FORWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 2, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":14.77650637,"y":-4.162512262,"z":467.2338062,"b":-0.274582561,"s":0.395767043,"e":-0.774660298,"t":3.032680018,"torB":0,"torS":56,"torE":64,"torH":0}
+Latency: 655.8 ms
+
+Recognized: BACKWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":66.79003319,"y":-18.81461864,"z":481.7152542,"b":-0.274582561,"s":0.401902966,"e":-0.58444668,"t":3.032680018,"torB":0,"torS":48,"torE":-52,"torH":0}
+Latency: 656.03 ms
+
+Recognized: BACKWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":123.9889461,"y":-34.9274379,"z":485.5330499,"b":-0.274582561,"s":0.40803889,"e":-0.381961216,"t":3.032680018,"torB":0,"torS":48,"torE":-40,"torH":0}
+Latency: 656.23 ms
+
+Recognized: BACKWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":184.3943815,"y":-51.94352812,"z":476.1896567,"b":-0.274582561,"s":0.415708794,"e":-0.168737887,"t":3.032680018,"torB":0,"torS":56,"torE":48,"torH":0}
+Latency: 656.18 ms
+
+Recognized: BACKWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":237.8830954,"y":-67.01119174,"z":455.5415796,"b":-0.274582561,"s":0.423378697,"e":0.029145635,"t":3.032680018,"torB":0,"torS":56,"torE":20,"torH":0}
+Latency: 657.44 ms
+
+Recognized: BACKWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":287.3805598,"y":-80.9545284,"z":423.4823803,"b":-0.274582561,"s":0.431048601,"e":0.231631099,"t":3.032680018,"torB":0,"torS":56,"torE":20,"torH":0}
+Latency: 665.42 ms
+
+Recognized: BACKWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":329.0379837,"y":-92.68934129,"z":382.3504544,"b":-0.274582561,"s":0.438718505,"e":0.431048601,"t":3.032680018,"torB":0,"torS":56,"torE":28,"torH":0}
+Latency: 656.28 ms
+
+Recognized: RECORD
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":329.3045496,"y":-92.76443239,"z":382.0218339,"b":-0.274582561,"s":0.438718505,"e":0.432582582,"t":3.032680018,"torB":0,"torS":56,"torE":0,"torH":0}
+Latency: 51.36 ms
+
+Recognized: BACKWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":362.3743859,"y":-102.0801391,"z":332.9077859,"b":-0.274582561,"s":0.44792239,"e":0.630466104,"t":3.032680018,"torB":0,"torS":64,"torE":24,"torH":0}
+Latency: 655.14 ms
+
+Recognized: BACKLOG
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":362.5696607,"y":-102.1351476,"z":332.5289332,"b":-0.274582561,"s":0.44792239,"e":0.632000085,"t":3.032680018,"torB":0,"torS":64,"torE":0,"torH":0}
+Latency: 51.79 ms
+
+Recognized: BACKWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":385.3955998,"y":-108.5651689,"z":277.7047037,"b":-0.274582561,"s":0.457126275,"e":0.829883606,"t":3.032680018,"torB":0,"torS":64,"torE":20,"torH":0}
+Latency: 655.16 ms
+
+Recognized: BACKWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":397.5029503,"y":-111.9757853,"z":218.4498724,"b":-0.274582561,"s":0.46786414,"e":1.029301109,"t":3.032680018,"torB":0,"torS":72,"torE":0,"torH":0}
+Latency: 654.46 ms
+
+Recognized: THEY'RE GOOD
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":397.5625451,"y":-111.9925731,"z":217.5925998,"b":-0.274582561,"s":0.46786414,"e":1.03236907,"t":3.032680018,"torB":0,"torS":72,"torE":0,"torH":0}
+Latency: 51.03 ms
+
+Recognized: BACKWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":397.6479193,"y":-112.0166228,"z":157.4140231,"b":-0.274582561,"s":0.478602006,"e":1.231786573,"t":3.032680018,"torB":0,"torS":72,"torE":24,"torH":0}
+Latency: 655.62 ms
+
+Recognized: ON
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":397.6479193,"y":-112.0166228,"z":157.4140231,"b":-0.274582561,"s":0.478602006,"e":1.231786573,"t":3.032680018,"torB":0,"torS":72,"torE":0,"torH":0}
+Latency: 51.0 ms
+
+Recognized: HUM
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":397.6479193,"y":-112.0166228,"z":157.4140231,"b":-0.274582561,"s":0.478602006,"e":1.231786573,"t":3.032680018,"torB":0,"torS":72,"torE":0,"torH":0}
+Latency: 50.87 ms
+
+Recognized: HUM
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":397.6479193,"y":-112.0166228,"z":157.4140231,"b":-0.274582561,"s":0.478602006,"e":1.231786573,"t":3.032680018,"torB":0,"torS":72,"torE":0,"torH":0}
+Latency: 51.13 ms
+
+Recognized: HUM
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":397.6479193,"y":-112.0166228,"z":157.4140231,"b":-0.274582561,"s":0.478602006,"e":1.231786573,"t":3.032680018,"torB":0,"torS":72,"torE":0,"torH":0}
+Latency: 52.14 ms
+
+Recognized: HUM
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":397.6479193,"y":-112.0166228,"z":157.4140231,"b":-0.274582561,"s":0.478602006,"e":1.231786573,"t":3.032680018,"torB":0,"torS":72,"torE":0,"torH":0}
+Latency: 51.4 ms
+
+Recognized: HA
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":397.6479193,"y":-112.0166228,"z":157.4140231,"b":-0.274582561,"s":0.478602006,"e":1.231786573,"t":3.032680018,"torB":0,"torS":72,"torE":0,"torH":0}
+Latency: 51.22 ms
+
+Recognized: HUM
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":397.6479193,"y":-112.0166228,"z":157.4140231,"b":-0.274582561,"s":0.478602006,"e":1.231786573,"t":3.032680018,"torB":0,"torS":72,"torE":0,"torH":0}
+Latency: 51.08 ms
+
+Recognized: HOME
+Sending: {"T": 100}
+Robot: {"T": 100}
+Robot: Init failed, skip moveInit.
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":397.6479193,"y":-112.0166228,"z":157.4140231,"b":-0.274582561,"s":0.478602006,"e":1.231786573,"t":3.032680018,"torB":0,"torS":72,"torE":0,"torH":0}
+Latency: 104.58 ms
+
+Recognized: BACKWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":385.537793,"y":-108.6052245,"z":98.73558868,"b":-0.274582561,"s":0.487805891,"e":1.434272037,"t":3.032680018,"torB":0,"torS":64,"torE":28,"torH":0}
+Latency: 654.32 ms
+
+Recognized: BACKWARD
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 1, "spd": 8}
+Sending: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Robot: {"T": 123, "m": 0, "axis": 3, "cmd": 0, "spd": 0}
+Sending: {"T": 105}
+Robot: {"T": 105}
+Robot: {"T":1051,"x":362.5530517,"y":-102.1304689,"z":45.07207572,"b":-0.274582561,"s":0.497009775,"e":1.633689539,"t":3.032680018,"torB":0,"torS":64,"torE":28,"torH":0}
+Latency: 660.45 ms
+
