@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi%205-green.svg)]()
 [![Speech Recognition](https://img.shields.io/badge/Vosk-Offline%20ASR-orange.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)]()
+
 
 This repository contains the implementation of an **embedded offline speech-controlled robotic manipulator** using a **Raspberry Pi 5**, **Vosk Offline Automatic Speech Recognition (ASR)**, and the **Waveshare RoArm-M2** robotic manipulator.
 
@@ -247,11 +247,3 @@ GitHub
 https://github.com/ahtishamuroojkhan
 
 ---
-
-# License
-
-This project is released under the MIT License.
-
----
-
-⭐ If you find this repository useful, please consider starring the project.
