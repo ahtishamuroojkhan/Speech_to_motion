@@ -237,7 +237,7 @@ The implementation accompanies the research paper
 
 **Ahtisham Urooj Khan**
 
-M.Sc. Systems and Control Engineering
+PhD. Systems and Control Engineering
 
 King Fahd University of Petroleum and Minerals (KFUPM)
 
